@@ -81,7 +81,7 @@ img {
 #gallery .gallery-imgs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: repeat(11, 1fr);
+  grid-auto-rows: auto;
   gap: 20px;
 }
 #gallery .gallery-imgs figure {
